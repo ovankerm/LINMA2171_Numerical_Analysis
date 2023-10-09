@@ -98,7 +98,7 @@ f1 = lambda x : cos(x)
 f2 = lambda x : 1/(1 + 25 * x*x)
 
 # ------ APPROX PARAM ------
-N = [10, 30, 50]
+N = [5, 10, 15]
 d = [0, 3, 5, 8]
 f = f2
 interval = 1
