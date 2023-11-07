@@ -168,7 +168,7 @@ ax.grid(which='both')
 ax.set_yscale('log')
 ax.set_xlabel('N')
 ax.set_ylabel('time [s]')
-ax.set_title("Fixed m")
+ax.set_title(f"Fixed m = {m}")
 
 fig.savefig("Homework2/images/fixed_m.eps", format='eps')
 
@@ -204,19 +204,19 @@ fig.savefig("Homework2/images/fixed_n.eps", format='eps')
 
 # ------ RESULTS ------
 #  ------ newton ------
-# Order of 1.9730201433444372 for the entire eval
-# Order of 1.993086190830223 for the initiation
-# Order of 1.0047804778136216 for the evaluation
+# Order of 1.9714504769230257 for the entire eval
+# Order of 1.9912007391192403 for the initiation
+# Order of 1.0060813193542648 for the evaluation
 
 #  ------ neville ------
-# Order of 1.9707979630338848 for the entire eval
-# Order of 0.4627265233858558 for the initiation
-# Order of 1.970802619595436 for the evaluation
+# Order of 1.9349092529938097 for the entire eval
+# Order of 0.42428705002205264 for the initiation
+# Order of 1.9349183803768009 for the evaluation
 
 #  ------ polyfit ------
-# Order of 2.6828943478831593 for the entire eval
-# Order of 2.706867639355788 for the initiation
-# Order of 0.9756830627393066 for the evaluation
+# Order of 2.373263059959059 for the entire eval
+# Order of 2.3932413459577195 for the initiation
+# Order of 0.9847752810750353 for the evaluation
 
 
 # ---------------------------------------
