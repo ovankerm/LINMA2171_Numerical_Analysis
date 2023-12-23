@@ -3,7 +3,7 @@ from numpy.linalg import solve
 from matplotlib import pyplot as plt
 from time import perf_counter
 
-print(np.pi/4)
+# print(np.pi/4)
 
 # ------ ALGORITHMS ------
 def uniform_search_grid(g, N_grid, a, b):
